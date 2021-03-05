@@ -66,6 +66,9 @@ public class StringArrayUtils {
      * @return true if each letter in the alphabet has been used in the array
      */ // TODO
     public static boolean isPangramic(String[] array) {
+        /* a pangramic sting is a sentence with all the letters in the alphabet
+        in it.make a new array, if I find a, add to new array, if
+         */
         return false;
     }
 
@@ -92,6 +95,12 @@ public class StringArrayUtils {
      * @return array of Strings with consecutive duplicates removes
      */ // TODO
     public static String[] removeConsecutiveDuplicates(String[] array) {
+        /* we are going to loop through the 1st array, check a[0] vs a[1], if same
+        just add a[0] to new array b. else keep looping. if a[1] == a[2], skip, else
+        add. at last element a[a.length-1], add? length of array is i = a.length,
+        last element in array is a[last element] = a.length-1
+         */
+
         return null;
     }
 
